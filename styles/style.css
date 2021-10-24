@@ -20,16 +20,46 @@ h2{
     font-weight: normal;
 }
 
-nav li{
-    display: inline;
-}
-
-nav{
-    margin-left: -40px;
-}
-
 header{
     margin-bottom: 50px;
+}
+
+/*nav bar*/
+
+.site-nav {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.site-nav ul {
+    margin: 0;
+    list-style-type: none; /* geen bolletjes voor de lijst items */
+
+}
+.site-nav li {
+    display: inline-block; /* naast elkaar, maar wel met een eigen hoogte en breedte */
+    width: 100px;
+    padding: 10px;
+    border-right: 1px solid black;
+    text-align: center;
+}
+.site-nav .active {
+    font-weight: 500;
+}
+.site-nav a {
+    color: black;
+    text-decoration: none; /* geen onderlijning bij links */
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: blue;
+    font-weight: 500;
+    text-decoration: underline;
 }
 
 /*algemeen*/
@@ -76,6 +106,6 @@ td{
 }
 /*video olvp*/
 .vidOlvp video{
-    width: 75%;
+    width: 750px;
     height: auto;
 }
