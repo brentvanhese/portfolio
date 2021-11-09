@@ -2,24 +2,22 @@
 html{
     font-family: "Source Sans Pro", Arial, "Helvetica Neue", Helvetoca, sans-serif;
     font-size: 18px;
-    background: #333333;
+    background: #c8d8e4;
     margin-left: 325px;
     margin-right: 325px;
 }
 
 body{
-    color: #F7F7F7;
     font-size: 18px;
 }
 
 p{
-    color: #F7F7F7 !important;
     font-size: 18px !important;
 }
 
 /*De header*/
 h1{
-    color: #f04c25;
+    color: #2b6777;
     font-size: 24px;
     line-height: 26px;
     font-weight: 600;
@@ -28,8 +26,12 @@ h1{
 h2{
     font-size: 18px;
     line-height: 20px;
-    color: #009cab;
+    color: #2b6777;
     font-weight: normal;
+}
+
+h3{
+    color: #2b6777;
 }
 
 header{
@@ -53,14 +55,15 @@ header{
     display: inline-block; /* naast elkaar, maar wel met een eigen hoogte en breedte */
     width: 150px;
     height: 30px;
-    background-color: #F7F7F7;
+    background-color: #52ab98;
+    color: black;
     text-align: center;
     padding-top: 10px;
     border-radius: 5px;
     margin-right: 15px;
 }
 .site-nav .active {
-    color: #009cab;
+    color: #ffffff;
     font-weight: 500;
 }
 .site-nav a {
@@ -68,11 +71,20 @@ header{
     color: black;
     text-decoration: none; /* geen onderlijning bij links */
 }
-.site-nav a:hover,
-.site-nav a:focus {
-    color: #f04c25;
+.site-nav li a:hover,
+.site-nav li a:focus,
+.site-nav li:hover,
+.site-nav li:focus{
+    background-color: #ffffff;
+    color: #52ab98;
     font-weight: 500;
     text-decoration: none;
+}
+
+.site-nav .active:hover,
+.site-nav .active:focus{
+    background-color: #52ab98;
+    color: white;
 }
 
 /*algemeen*/
@@ -91,19 +103,19 @@ figure {
 }
 
 a{
-    color: #f04c25;
+    color: #52ab98;
 }
 
 /*CV onderdelen*/
 
 h4{
-    color: #009cab;
+    color: #2b6777;
 }
 
 /*margin op index page*/
 .underPhoto{
-
-    margin-bottom: 88px;
+    padding-top: 30px;
+    margin-bottom: 85px;
 }
 
 .info{
@@ -125,7 +137,7 @@ h4{
 }
 
 footer{
-    border-top: 1px solid #009cab;
+    border-top: 1px solid #2b6777;
 }
 
 footer p{
