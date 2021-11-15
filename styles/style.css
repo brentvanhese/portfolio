@@ -23,15 +23,15 @@ h1{
     font-weight: 600;
 }
 
-h2{
+h2, h3{
+    color: #2b6777;
+}
+
+.ondertitel{
     font-size: 18px;
     line-height: 20px;
     color: #2b6777;
     font-weight: normal;
-}
-
-h3{
-    color: #2b6777;
 }
 
 header{
